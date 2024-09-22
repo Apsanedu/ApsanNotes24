@@ -24,9 +24,9 @@ export type Subscribe = {
 
 export type SiteConfig = {
     logo?: Image;
-    title: string;
-    subtitle?: string;
-    description: string;
+//    title: string;
+//    subtitle?: string;
+//    description: string;
     image?: Image;
     headerNavLinks?: Link[];
     footerNavLinks?: Link[];
@@ -38,9 +38,9 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    //title: 'Dante',
+    //subtitle: 'Minimal Astro.js theme',
+    //description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -71,29 +71,23 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
         }
+        
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Instagram',
+            href: 'https://deleteinstagram.com/'
         },
         {
-            text: 'Delete Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'Delete X/Twitter',
+            text: 'X/Twitter',
             href: 'https://deletetwitter.com/'
         }
     ],
     hero: {
         title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Apsan Bishwokarma**, a CS student. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        text: "Hello, I'm Apsan Bishwokarma, a dedicated and detail-oriented software engineer with a background in both military service and formal education. I am currently advancing my expertise through the VetsWhoCode Coding Bootcamp, where I am actively engaged in learning software engineering.  <br/> <br/>I am proficient in a variety of programming languages, including Java, Python, C++, and JavaScript. Additionally, I am well-versed in developer tools such as the VIM Editor, Git/GitHub, Tmux, and more. My technical skill set extends to Agile Methodology, Project Management Principles, and a range of other technologies.", 
+
         image: {
             src: '/hero.jpeg',
             alt: 'A person sitting at a desk in front of a computer'
